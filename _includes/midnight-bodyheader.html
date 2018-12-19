@@ -13,7 +13,7 @@
 	  {% else %}
 		{% assign sorted_pages = site.pages | sort:"order" %}
 		{% for page in sorted_pages reversed %}
-			{% if page.layout == "default" and page.order > 0 %}
+			{% if page.order > 0 %}
 				<li class="downloads"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 			{% endif %}
 		{% endfor %}

@@ -3,9 +3,9 @@ layout: default
 title: Home
 order: 0
 ---
-## Welcome to erikrz's personal drop
+## Hello,
 
-this is after menu
-[Photo Gallery](photos.md)
+I am Erik Ríos, and you are welcome to explore this humble site. 
+You can start at my [Photo Gallery](gallery.md), or reading some [FAQS](faq.md).
 
-[Demo album](berlin.md)
+Anyway, I hope you enjoy your visit :)
