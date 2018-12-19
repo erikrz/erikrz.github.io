@@ -1,0 +1,22 @@
+ <body>
+	{% include midnight-bodyheader.html %}
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <hr>
+          <span class="credits left">By <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+        </div>
+
+        {{ content }}
+
+      </section>
+	  
+	   <hr>
+       <span class="credits right">Hosted on GitHub Pages &mdash; Base heme: <a href="https://pages-themes.github.io/midnight/">midnight</a></span>
+    </div>
+	
+   {% include midnight-analytics.html %}
+</body>
