@@ -1,17 +1,11 @@
  <body>
   {% include midnight-bodyheader.html %}
-  <div class="wrapper">
-    <section>
-		
+
 	  {{ content }}
-	  
-	</section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-    <script>
-      baguetteBox.run('.tz-gallery');
-    </script>  
-	<hr>
-    <span class="credits left">Hosted on GitHub Pages &mdash; Base heme: <a href="https://pages-themes.github.io/midnight/">midnight</a></span>
-  </div>
-   {% include midnight-analytics.html %}
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+    baguetteBox.run('.tz-gallery');
+  </script>  
+  {% include midnight-analytics.html %}
 </body>
