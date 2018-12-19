@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: home
+order: 3
 ---
 ## FAQ
 
