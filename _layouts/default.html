@@ -21,7 +21,9 @@
       <div id="header">
         <nav>
 		  {% if site.github.is_project_page %}
-            <li class="fork"><a href="{{ site.baseurl }}">&#8962;</a></li>
+            <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
+		  {% else %}
+		    <li class="fork"><a href="{{ site.baseurl }}">&#8962;</a></li>
 		  {% endif %}
 		  <ul>
 		  {% assign sorted_pages = site.pages | sort:"order" %}
@@ -55,7 +57,7 @@
       </section>
 
 	   <hr>
-       <span class="credits right">Hosted on GitHub Pages &mdash; Base theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+       <span class="credits right">Hosted on GitHub Pages &mdash; Base heme: <a href="https://pages-themes.github.io/midnight/">midnight</a></span>
     </div>
 	
     {% if site.google_analytics %}
