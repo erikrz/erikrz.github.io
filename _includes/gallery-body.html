@@ -1,14 +1,22 @@
  <body>
-	{% include midnight-bodyheader.html %}
+  {% include midnight-bodyheader.html %}
   <div class="wrapper">
-      
-    {{ content }}
-
+    <section>
+	    <div id="title">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <hr>
+          <span class="credits right">By <a href="{{ site.github.owner_url }}">me</a></span>
+        </div>
+		
+	  {{ content }}
+	  
+	</section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
     <script>
       baguetteBox.run('.tz-gallery');
     </script>  
-	  <hr>
+	<hr>
     <span class="credits left">Hosted on GitHub Pages &mdash; Base heme: <a href="https://pages-themes.github.io/midnight/">midnight</a></span>
   </div>
    {% include midnight-analytics.html %}
