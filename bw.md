@@ -5,6 +5,6 @@ permalink: /B&W/
 description: "Black & White"
 order: -1
 photos:
-    set: Black & White
+    set: bw
     size: 2
 ---
