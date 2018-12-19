@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: default
+title: Gallery
 order: 2
 ---
 ## Gallery

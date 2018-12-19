@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: default
+title: FAQ
 order: 3
 ---
 ## FAQ
