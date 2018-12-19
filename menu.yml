@@ -1,0 +1,14 @@
+docs_list_title: ACME Documentation
+docs:
+
+- title: HOME
+  url: README.md
+
+- title: PROJECTS
+  url: docs/photos.md
+
+- title: BLOG
+  url: docs/photos.md
+  
+- title: FAQ
+  url: docs/photos.md
