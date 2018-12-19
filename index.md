@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 ---
 ## Welcome to erikrz's personal drop
 
